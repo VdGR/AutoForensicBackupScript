@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# coment inserted by YP-PY
 echo -e "stopping udisks2\n"
 systemctl stop udisks2.service
 echo -e "masking udisks2\n"
