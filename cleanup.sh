@@ -13,13 +13,13 @@ echo
 
 for (( c=1; c <=${partions_loop}; c++ ))
 do  
-	echo -e "unmounting /dev/loop0p$c"
+	echo -e "Unmounting /dev/loop0p$c"
     umount -f -l /dev/loop0p$c
 	echo 
 
 done
 
-echo -e "unmounting loop device"
+echo -e "Unmounting loop device"
 losetup -d  /dev/loop0
 
 lsblk
